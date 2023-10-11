@@ -14,12 +14,12 @@ impl Transcript {
     pub fn build_rng() {}
 
     pub struct TranscriptRngBuilder {}
+}
 
-    impl TranscriptRngBuilder {
-        pub fn rekey_with_witness_bytes() {}
+impl TranscriptRngBuilder {
+    pub fn rekey_with_witness_bytes() {}
 
-        pub fn commit_witness_bytes() {}
+    pub fn commit_witness_bytes() {}
 
-        pub fn finalize {}
-    }
+    pub fn finalize {}
 }
